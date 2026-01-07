@@ -13,10 +13,9 @@ html {
   margin: 0;
 
   --px: clamp(16px, 10vw, 200px);   
-  --pt: clamp(16px, 4vw, 50px);    
-  --pb: clamp(24px, 10vw, 200px);  
+  --pt: clamp(16px, 4vw, 50px);     
 
-  padding: var(--pt) var(--px) var(--pb);
+  padding: var(--pt) var(--px) var(--pt);
 }
 
 h2 {
